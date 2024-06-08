@@ -1,0 +1,90 @@
+
+body{
+    background-size: cover;
+    background-image: url(images.jpeg);
+}
+div:hover{
+    background-color: black;
+}
+div{
+    width: 70px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    float: right;
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 150px;
+    border-radius: 3px;
+}
+p{
+    font-size: 50px;
+    color: white;
+    /* margin-left: 200px; */
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.nnn{
+    color: white;
+    margin-left: 450px;
+    font-size: 30px;
+    justify-content: space-between;
+}
+.dddd{
+    color: white;
+    margin-left: 420px; 
+}
+input{
+    width: 350px;
+    height: 65px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgb(51, 49, 49);
+    margin-left: 350px;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: black;
+}
+
+button{
+    width: 150px;
+    height: 65px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+
+
+/* ####################### mobile ######################### */
+
+@media screen and (max-width: 680px){
+    div{
+        float: right;
+        margin-right: 0;
+        margin-top: 30px;
+
+    }
+    p{
+        font-size: 25px;
+        color: white;
+        /* margin-left: 200px; */
+        margin-top: 150px;
+        margin-left: 200px;
+    }
+}
+footer{
+    height: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h1{
+    display: inline-block;
+}
+footer ul li{
+    list-style: none;
+}
+
